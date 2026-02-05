@@ -1,0 +1,28 @@
+/* Fondo moderno y suave */
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo de la previsualización de color */
+.color-preview {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 50%; /* Hacemos que sea un círculo */
+    border: 5px solid #fff; /* Borde blanco para resaltar */
+    transition: background-color 0.1s ease-in-out, transform 0.2s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* Efecto hover sutil en el círculo */
+.color-preview:hover {
+    transform: scale(1.05);
+}
+
+/* Ajustes para los inputs numéricos */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
